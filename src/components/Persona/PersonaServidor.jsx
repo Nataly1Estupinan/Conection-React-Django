@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/api/personas/";
+const API_URL = "https://app-django-naty.herokuapp.com/";
 
 export const listaPersonas = async () => {
   return await fetch(API_URL);
